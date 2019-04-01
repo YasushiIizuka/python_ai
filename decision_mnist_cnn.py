@@ -28,7 +28,7 @@ def preprocess(image):
                               data=(1, 0, x_move, 0, 1, y_move))
     return im_ret
 
-model = load_model('20190401_02.h5')
+model = load_model('mnist_model.h5')
 
 def list_pictures(directory, ext='jpg|jpeg|bmp|png|ppm'):
     return [os.path.join(root, f)
