@@ -1,8 +1,8 @@
 '''このサンプルについて
 このサンプルは公式サイト（下記URL）のサンプルを改造したものです。
 https://github.com/keras-team/keras/blob/master/examples/mnist_cnn.py
-18-19行目：学習回数を2回に変更しました。
-74行目：作成したモデルの保存処理を追加しました。
+18行目：学習回数を12から2回に変更しました。
+73行目：作成したモデルの保存処理を追加しました。
 '''
 
 from __future__ import print_function
@@ -15,7 +15,6 @@ from keras import backend as K
 
 batch_size = 128
 num_classes = 10
-#epochs = 12
 epochs = 2
 
 
